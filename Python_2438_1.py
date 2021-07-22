@@ -12,5 +12,5 @@ num=1 # num 선언 및 초기화
 for i in range(N): # i에 0부터 N-1까지 대입하며 반복
     for j in range(num): # 
         print("*", end="")
-    num+=1
-    print()
+    num+=1 # num에 num+1 대입하기
+    print() # 한 줄 띄기
