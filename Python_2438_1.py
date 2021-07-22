@@ -6,11 +6,11 @@
 첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
 '''
 
-N=int(input())
-num=1
+N=int(input()) # 사용자로부터 정수 입력받기
+num=1 # num 선언 및 초기화
 
-for i in range(N):
-    for j in range(num):
+for i in range(N): # i에 0부터 N-1까지 대입하며 반복
+    for j in range(num): # 
         print("*", end="")
     num+=1
     print()
